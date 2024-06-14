@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="getdates.js" defer></script>
         <title>WDD 131 - Dynamic Web Fundamentals - Morgan Gatz</title>
         <meta name="description" content="Morgan Gatz, WDD 131 - Dynamic Web Fundamentals, Homepage for school work">
         <meta name="author" content="Morgan Gatz">
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/base.css">        
     </head>
     <body>
         <h1>WDD 131:Dynamic Wed Fundamentals - Morgan Gatz</h1>
@@ -17,19 +15,29 @@
             <a href="https://www.linkedin.com/in/morgan-gatz-9a45b02a0/">LinkedIn</a>
             <a href="https://byui.instructure.com/">I-Learn</a>
             <a href="https://www.churchofjesuschrist.org/study/scriptures/ot/prov/3?lang=eng">Scripture</a>
-            <a href="">Final Project</a>
+            <a href="#">Final Project</a>
         </nav>
     </body>
     <main>
         <div class="card">
-            <h1>About Me</h1>
+            <h2>About Me</h2>
+            <p>My name is Morgan. I was born in Manitoba, Canada and live with my family in Winnipeg. I am currently focusing on school, and being a homemaker. One hobby of mine is learning Korean! I love k-pop and have started the k-drama "Queen of Tears" on Netflix.</p>
+            <img src="images/profile.jpg" alt="Profile Photo">
         </div>
         <div class="card">
-            <h1>Web Dev Resources</h1>
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="#">Dev.to Community</a></li>
+                <li><a href="#">Smashing Magazine</a></li>
+                <li><a href="#">CSS Tricks</a></li>
+                <li><a href="#">W3 Schools</a></li>
+                <li><a href="#">Udemy</a></li>
+                <li><a href="#">Lorem Picsum Image Placeholder</a></li>
+            </ul>
         </div>
     </main>
     <footer>
-        <p>&copy;<span id="currentyear"></span> Morgan Gatz Canada</p>
+        <p>&copy; <span id="currentyear"></span> ❄ Morgan Gatz ❄ Canada</p>
         <p><span id="lastModified"></span></p>
     </footer>
 </html>
