@@ -1,0 +1,37 @@
+body {
+    display: grid;
+    margin: auto;
+    color: #bab8b8;
+}
+
+header h1{
+    height: 100px;
+    margin: auto;
+    background-color: #000456;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #005e78;
+    display: flex;
+    font-size: 1.1rem;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration:underline;
+}
+
+main, aside {
+    display: flex;
+    grid-template-columns: 2fr 1fr;
+
+}
+
