@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 span {background-color: red}
 
-html {
-	align-content: center;
-	align-items: center;
-	align-self: center;
-	justify-content: center;
-}
-
 body {
     font-family: "Rubik", sans-serif;
 	align-items: center;
