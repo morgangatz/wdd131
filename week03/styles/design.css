@@ -7,22 +7,29 @@ header, main, footer {
 	margin: 0 auto;
 }
 
-marquee {
-	padding: 1rem;
-	background-color: #eee;
+.banner {
+	border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: #e6f3fe;
+    font-weight: 700;
+	word-break: break-word;
+	text-align: center;
 }
 
 h1 {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid #0000001a;
 }
 
 main {
 	display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-gap: 1.5rem;
 }
 
 h2 {
 	color: navy;
 	text-align: left;
+    grid-column: 1 / 3;
 }
 
 article p {
@@ -30,8 +37,9 @@ article p {
 }
 
 .callout {
-	color: #777;
-	background-color: #702963;
+	color: #000000;
+	background-color: #d1d1d1;
+    grid-column: 1/3;
     padding: 1rem;
 }
 
@@ -39,5 +47,5 @@ footer {
 	margin-top: 1rem;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	font-size: smaller;
-	text-align: right;
+	text-align: left;
 }
