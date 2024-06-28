@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/getdates.js" defer></script>
     <script src="scripts/place.js" defer></script>
     <title>WDD 131: Place</title>
     <meta name="description" content="Morgan Gatz, WDD 131 - Dynamic Web Fundamentals, Homepage for school work">
     <meta name="author" content="Morgan Gatz">
     <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-larger.css">
 </head>
 <body>
     <header>
@@ -21,7 +23,66 @@
             <img src="images/seoul-mobile.webp" alt="View of Seoul cityscape" width="250" height="400">
           </picture>
     </div>
+    <div class="data">
+        <h2>Data</h2>
+        <table>
+            <tr>
+                <td class="bold">Area: </td>
+                <td>100,210 km²</td>
+            </tr>
+            <tr>
+                <td class="bold">Capital: </td>
+                <td>Seoul</td>
+            </tr>
+            <tr>
+                <td class="bold">Languages: </td>
+                <td>Korean</td>
+            </tr>
+            <tr>
+                <td class="bold">Currency: </td>
+                <td>Won</td>
+            </tr>
+            <tr>
+                <td class="bold">Time Zone: </td>
+                <td>UTC+9</td>
+            </tr>
+            <tr>
+                <td class="bold">Calling Code: </td>
+                <td>+82</td>
+            </tr>
+            <tr>
+                <td class="bold">Internet TLD: </td>
+                <td>.kr</td>
+            </tr>
+            </table>
+    </div>
+    <div id="weather">
+        <h2>Weather</h2>
+        <img src="images/weather-icon.svg" alt="Weather icon" viewbox="0 0 50px 50px">
+        <table>
+            <tr>
+                <td class="bold">Temperature: </td>
+                <td><span id="temperature">10</span>°C</td>
+            </tr>
+            <tr>
+                <td class="bold">Conditions: </td>
+                <td>Partly Cloudy</td>
+            </tr>
+            <tr>
+                <td class="bold">Wind Speed: </td>
+                <td><p><span id="windSpeed">5</span> km/h</p></td>
+            </tr>
+            <tr>
+                <td class="bold">Windchill Factor:  </td>
+                <td><span id="windChill"></span>°C</td>
+            </tr>
+        </table>
+    </div>
           
     </main>
+    <footer>
+        <p id="currentYear">❄ Morgan Gatz ❄ Canada</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>

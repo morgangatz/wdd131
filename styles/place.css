@@ -1,4 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 1px;
+    color: #fff;
+    background-color: #016464;
+    text-align: center;
+}
+
+table {
+    padding: 2px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+th, td {
+    padding: 4px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.weather .bold td{
+    width:30%;
+    display:inline-block;
+    box-sizing:border-box;
+    text-align:right;
+}
+
+.weather img{
+    width: 10%;
+    height: 10%;
+}
+
+.hero {
+    padding-top: 30px;
+    background-color: #17016d;
+
+}
+
 .hero img {
     width: 100%;
     height: auto;
-  }
+}
+
+h2 {
+    margin: 20px;
+    text-align: center;
+}
+
+.data, .weather {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+footer {
+	text-align: center;
+	background-color: #016464;
+	padding: 2px;
+	color: #fff;
+}
