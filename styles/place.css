@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --primary-color: #016464;
+    --secondary-color: #17016d;
 
-
+    --heading-font: 'Raleway', serif;
+    --paragraph-font: 'var(--paragraph-font)', serif;
+}
 body {
-    font-family: Arial, sans-serif;
+    font-family: var(--paragraph-font);
+    font-family: "Raleway";
 }
 
 header {
     padding: 1px;
     color: #fff;
-    background-color: #016464;
+    background-color: var(--primary-color);
     text-align: center;
 }
 
@@ -35,13 +42,20 @@ th, td {
     text-align:right;
 }
 
+.weather{
+    display: contents;
+    float: center;
+}
+
 .weather img{
     margin: 0 auto;
+    display: block;
+    float: center;
 }
 
 .hero {
     padding-top: 30px;
-    background-color: #17016d;
+    background-color: var(--secondary-color);
 
 }
 
@@ -74,7 +88,7 @@ p {
 
 footer {
 	text-align: center;
-	background-color: #016464;
+	background-color: var(--primary-color);
 	padding: 2px;
 	color: #fff;
     position: relative;

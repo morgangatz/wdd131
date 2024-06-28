@@ -7,7 +7,7 @@
     header {
         padding: 2px;
         color: #fff;
-        background-color: #016464;
+        background-color: var(--primary-color);
         text-align: center;
     }
     
@@ -34,16 +34,20 @@
     }
     
     .weather {
+        display: block;
         top: 70%;
         right: 20px;
         transform: translateY(-50%);
+    }
+    .weather img{
+
     }
     
     h2 {
         margin: 0px;
         text-align: center;
         color: #fff;
-        background-color: #016464;
+        background-color: var(--secondary-color);
         padding: 10px;
         border-radius: 8px;
     }
