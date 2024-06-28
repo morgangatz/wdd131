@@ -44,13 +44,13 @@ th, td {
 
 .weather{
     display: contents;
-    float: center;
+    align-items: center;
 }
 
 .weather img{
     margin: 0 auto;
     display: block;
-    float: center;
+    width: 150px;
 }
 
 .hero {
