@@ -16,69 +16,72 @@
         <h1>South Korea</h1>
     </header>
     <main>
-    <div class="hero">
-        <picture>
-            <source media="(min-width: 1000px)" srcset="images/seoul-large.webp">
-            <source media="(min-width: 400px)" srcset="images/seoul-mobile.webp">
-            <img src="images/seoul-mobile.webp" alt="View of Seoul cityscape" width="250" height="400">
-          </picture>
-    </div>
-    <div class="data">
-        <h2>Data</h2>
-        <table>
-            <tr>
-                <td class="bold">Area: </td>
-                <td>100,210 km²</td>
-            </tr>
-            <tr>
-                <td class="bold">Capital: </td>
-                <td>Seoul</td>
-            </tr>
-            <tr>
-                <td class="bold">Languages: </td>
-                <td>Korean</td>
-            </tr>
-            <tr>
-                <td class="bold">Currency: </td>
-                <td>Won</td>
-            </tr>
-            <tr>
-                <td class="bold">Time Zone: </td>
-                <td>UTC+9</td>
-            </tr>
-            <tr>
-                <td class="bold">Calling Code: </td>
-                <td>+82</td>
-            </tr>
-            <tr>
-                <td class="bold">Internet TLD: </td>
-                <td>.kr</td>
-            </tr>
+
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/seoul-large.webp">
+                <source media="(min-width: 400px)" srcset="images/seoul-mobile.webp">
+                <img src="images/seoul-mobile.webp" alt="View of Seoul cityscape" width="250" height="400">
+            </picture>
+        </div>
+       <div class="data">
+           <h2>Data</h2>
+           <table>
+                <tr>
+                    <td class="bold">Area: </td>
+                    <td>100,210 km²</td>
+                </tr>
+                <tr>
+                    <td class="bold">Capital: </td>
+                    <td>Seoul</td>
+                </tr>
+                <tr>
+                    <td class="bold">Languages: </td>
+                    <td>Korean</td>
+                </tr>
+                <tr>
+                    <td class="bold">Currency: </td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td class="bold">Time Zone: </td>
+                    <td>UTC+9</td>
+                </tr>
+                <tr>
+                    <td class="bold">Calling Code: </td>
+                    <td>+82</td>
+                </tr>
+                <tr>
+                    <td class="bold">Internet TLD: </td>
+                    <td>.kr</td>
+                </tr>
+                </table>
+        </div>
+        <div class="weather">
+            <h2>Weather<span class="emoticon">⛅</span></h2>
+            <picture class="weather-icon">
+                <source media="(max-width: 400px)" srcset="images/weather-icon.svg">
+                <img src="images/weather-icon.svg" alt="Weather icon">
+            </picture>
+            <table>
+                <tr>
+                    <td class="bold">Temperature: </td>
+                    <td><span id="temperature">10</span>°C</td>
+                </tr>
+                <tr>
+                    <td class="bold">Conditions: </td>
+                    <td>Partly Cloudy</td>
+                </tr>
+                <tr>
+                    <td class="bold">Wind Speed: </td>
+                    <td><p><span id="windSpeed">5</span> km/h</p></td>
+                </tr>
+                <tr>
+                    <td class="bold">Windchill Factor:  </td>
+                    <td><span id="windChill"></span>°C</td>
+                </tr>
             </table>
-    </div>
-    <div id="weather">
-        <h2>Weather</h2>
-        <img src="images/weather-icon.svg" alt="Weather icon" viewbox="0 0 50px 50px">
-        <table>
-            <tr>
-                <td class="bold">Temperature: </td>
-                <td><span id="temperature">10</span>°C</td>
-            </tr>
-            <tr>
-                <td class="bold">Conditions: </td>
-                <td>Partly Cloudy</td>
-            </tr>
-            <tr>
-                <td class="bold">Wind Speed: </td>
-                <td><p><span id="windSpeed">5</span> km/h</p></td>
-            </tr>
-            <tr>
-                <td class="bold">Windchill Factor:  </td>
-                <td><span id="windChill"></span>°C</td>
-            </tr>
-        </table>
-    </div>
-          
+        </div>
     </main>
     <footer>
         <p id="currentYear">❄ Morgan Gatz ❄ Canada</p>

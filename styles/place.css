@@ -1,3 +1,5 @@
+
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -26,7 +28,7 @@ th, td {
     font-weight: bold;
 }
 
-.weather .bold td{
+.weather, .bold td{
     width:30%;
     display:inline-block;
     box-sizing:border-box;
@@ -34,8 +36,7 @@ th, td {
 }
 
 .weather img{
-    width: 10%;
-    height: 10%;
+    margin: 0 auto;
 }
 
 .hero {
@@ -62,9 +63,23 @@ p {
     margin: 5px 0;
 }
 
+.emoticon {
+    display: none;
+}
+
+.weather-icon {
+    display: block;
+    margin: 0 auto;
+}
+
 footer {
 	text-align: center;
 	background-color: #016464;
 	padding: 2px;
 	color: #fff;
+    position: relative;
+    width: 100%;
+    bottom: 0;
 }
+
+
