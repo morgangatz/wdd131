@@ -1,0 +1,41 @@
+@media (min-width: 740px) {
+	header {
+		display: flex;
+		align-items: center;
+	    justify-content: space-between;
+	}
+
+    header h1 {
+        position: relative;
+    }
+    
+
+
+
+	nav {
+		justify-content: flex-end;
+		flex-direction: row;
+	}
+	nav a {
+		flex: 1 1 100%;
+	}
+
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#menu {
+		display: none;
+	}
+
+    .res-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
