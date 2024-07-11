@@ -11,9 +11,13 @@ body {
     font-family: var(--font);
     align-items: center;
     margin: 10px;
-    padding: 0;
+    padding: 10px;
     display: flex;
     flex-direction: column;
+}
+
+img {
+    height: 200px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,7 +40,7 @@ nav a{
     margin: 1rem auto;
 	grid-template-columns: repeat(3, auto);
 	align-items: center;
-	max-width: 1000px;
+	max-width: 900px;
     display: block;
     color: #fff;
     text-decoration: none;
@@ -53,10 +57,8 @@ nav img {
 }
 
 .music-iframe {
-    width: 50%;
-    height: 150px;
+    height: 190px;
     border-radius: 10px;
-    border: none; /* Remove the border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
     transition: box-shadow 0.3s ease; /* Smooth transition */
   }
@@ -67,4 +69,31 @@ nav img {
 
 figcaption {
     margin: 10px;
+    font-size: large;
 }
+
+.album {
+    float: left;
+}
+
+.album img {
+    width: 400px;
+    height: auto;
+}
+div {
+    float: left;
+}
+
+footer {
+	text-align: center;
+	background-color: var(--secondary-color);
+	padding: 2px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    max-width: 925px;
+}
+footer p{
+	color: #fff;
+}
+

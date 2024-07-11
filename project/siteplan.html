@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project Site Plan</title>
+    <script src="scripts/getdates.js" defer></script>
     <link rel="stylesheet" href="styles/siteplan.css">
 </head>
 <body>
@@ -30,6 +31,11 @@
         <h3>Typography</h3>
         <p>Font: Helvetica</p>
 
+        <h3>Wireframes</h3>
+        <img src="images/Home wireframe.jpg">
+        <img src="images/About wireframe.jpg">
+        <img src="images/Music wireframe.jpg">
+
         <h2>Testing</h2>
         <nav>
             <img src="images/mg-logo.jpg" alt="M.G logo">
@@ -46,9 +52,17 @@
             <a href="#">ABOUT</a>
             <a href="#">MUSIC</a>
         </nav>
-        <iframe class="music-iframe" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/ca/album/drunk-dazed/1563302028?i=1563302034"></iframe>
-        <figcaption class="iframe-caption"> Album: Border: Carnival<br>Release Date: April 26, 2021</figcaption>
+        <div class="album">
+            <img src="images/border-carnival-enhypen.webp"> 
+        </div>
+        <div>
+            <figcaption class="iframe-caption"> Album: Border: Carnival<br>Release Date: April 26, 2021<br>Title Track: Drunk-Dazed</figcaption>
+            <iframe class="music-iframe" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/ca/album/drunk-dazed/1563302028?i=1563302034"></iframe>
+        </div>
     </main>
-    <footer></footer>
+    <footer>
+        <p id="currentYear">❄ Morgan Gatz ❄ Canada</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
