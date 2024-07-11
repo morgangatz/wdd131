@@ -1,0 +1,70 @@
+:root {
+    --primary-color: #292836;
+    --secondary-color: #1F3E4B;
+    --accent-color: #393945;
+    --hover-color: #841212;
+
+    --font: 'Helvetica', sans-serif;
+}
+
+body {
+    font-family: var(--font);
+    align-items: center;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color)
+}
+
+p {
+    color: var(--accent-color);
+}
+
+nav {
+    background-color: var(--secondary-color);
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+nav a{
+    margin: 1rem auto;
+	grid-template-columns: repeat(3, auto);
+	align-items: center;
+	max-width: 1000px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover {
+    background-color: var(--hover-color);
+}
+
+nav img {
+	width: 90px;
+	height: auto;
+}
+
+.music-iframe {
+    width: 50%;
+    height: 150px;
+    border-radius: 10px;
+    border: none; /* Remove the border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+  }
+
+.music-iframe:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Intensify shadow on hover */
+}
+
+figcaption {
+    margin: 10px;
+}
