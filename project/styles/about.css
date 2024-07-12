@@ -22,6 +22,11 @@ header {
     min-height: 100px;
 }
 
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
 footer {
 	text-align: center;
 	background-color: var(--secondary-color);
