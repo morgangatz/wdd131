@@ -30,7 +30,19 @@ header {
 main h1, h2, h3, h4, h5 {
     grid-column: 1 / -1;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0px;;
+}
+
+
+
+.members {
+    text-align: center;
+}
+
+.members img{
+    width: 300px;
+    height: auto;
+    display: inline-block;
 }
 
 .social-links li{
@@ -42,6 +54,7 @@ main h1, h2, h3, h4, h5 {
     list-style: none;
 	color: var(--secondary-color);
 	transition: 0.3s;
+
 }
 .social-links a{
     color: var(--secondary-color);

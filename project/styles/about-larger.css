@@ -1,5 +1,5 @@
 @media (min-width: 740px) {
-	header {
+	header, .social-links {
 		display: flex;
 		align-items: center;
 	    justify-content: space-between;
@@ -8,20 +8,44 @@
     header img {
         position: relative;
     }
+
+     .members h3, .members p {
+        text-align: left;
+        margin: 5px 0;
+    }
     
-    main figcaption {
-        text-align: center;
+     .members-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); 
     }
 
-	nav {
+    
+    .members {
+        display: flex;
+        text-align: left;
+        margin-top: 10px;
+        font-size: larger;
+        justify-content: center; 
+        align-items: center;
+    }
+
+    .members img {
+        display: flex;
+        align-items: flex-start;
+        width: 400px;
+        padding-inline: 10px;
+    }
+
+    
+	nav, .social-links {
 		justify-content: flex-end;
 		flex-direction: row;
 	}
 
-    .navigation {
+    .navigation, .social-links{
 		display: flex;
 	}
-	.navigation li {
+	.navigation li, .social-links li {
 		display: block;
 		flex: 1 1 100%;
 	}
