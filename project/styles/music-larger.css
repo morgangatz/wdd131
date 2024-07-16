@@ -9,32 +9,15 @@
         position: relative;
     }
     
-    main {
-        display: grid;
-        gap: 1rem;
-        padding: 1rem;
-        width: 100%;
-        box-sizing: border-box;
-        justify-items: center;
-        grid-template-columns: repeat(3, auto); 
-        grid-gap: 25px; 
-        place-items: center;
+    .album {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
     }
 
-    main img {
-        max-width: 450px;
-        min-height: 300px;
-        position: relative;
-    }
-    
-    main h2 {
-        grid-column: 1 / -1;
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-    
-    main figcaption {
-        text-align: center;
+    .album img {
+        margin-right: 10px;
     }
 
 	nav {

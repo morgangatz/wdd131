@@ -35,7 +35,7 @@ main h1, h2, h3, h4, h5 {
 
 
 
-.members {
+/*.members {
     text-align: center;
 }
 
@@ -43,6 +43,21 @@ main h1, h2, h3, h4, h5 {
     width: 300px;
     height: auto;
     display: inline-block;
+}*/
+
+.members {
+	display: grid;
+	width: 100%;
+	box-sizing: border-box;
+	align-items: center;
+	justify-items: center;
+	text-align: center;
+}
+
+.members img {
+	max-width: 300px;
+	height: auto;
+	position: relative;
 }
 
 .social-links li{

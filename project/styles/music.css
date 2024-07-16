@@ -10,9 +10,10 @@
 
 body {
     font-family: var(--font);
+	color: var(--primary-color);
     align-items: center;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;          
 }
 
 header {
@@ -20,6 +21,38 @@ header {
     color: var(--text-color);
     padding: 20px;
     min-height: 100px;
+}
+
+.album {
+	display: grid;
+	width: 100%;
+	box-sizing: border-box;
+	align-items: center;
+	justify-items: center;
+	text-align: center;
+}
+
+.album img {
+	max-width: 300px;
+	height: auto;
+	position: relative;
+}
+
+.music-iframe {
+	margin-bottom: 15px;
+    height: 190px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+  }
+
+.music-iframe:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Intensify shadow on hover */
+}
+
+h1 {
+	grid-column: 1 / -1;
+	text-align: center;
 }
 
 footer {
