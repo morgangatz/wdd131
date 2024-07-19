@@ -50,7 +50,7 @@ header {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Intensify shadow on hover */
 }
 
-h1 {
+h1, h4 {
 	grid-column: 1 / -1;
 	text-align: center;
 }
