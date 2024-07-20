@@ -33,18 +33,6 @@ main h1, h2, h3, h4, h5 {
     margin-bottom: 0px;;
 }
 
-
-
-/*.members {
-    text-align: center;
-}
-
-.members img{
-    width: 300px;
-    height: auto;
-    display: inline-block;
-}*/
-
 .members {
 	display: grid;
 	width: 100%;

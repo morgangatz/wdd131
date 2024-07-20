@@ -22,6 +22,25 @@ header {
     min-height: 100px;
 }
 
+h2 {
+    margin: 20px;
+    text-align: center;
+}
+
+.data {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 5px 0;
+	text-align: center;
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+}
+
 footer {
 	text-align: center;
 	background-color: var(--secondary-color);
